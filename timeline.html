@@ -8,18 +8,22 @@
     
   .container{
             text-align:center;
-            width:4500px;
-            overflow-x:scroll;
+            width:15000px;
+            overflow-x:visible;
             color:white;     
+            height: 100%;
 
    }
             
+
 .planet {       
         background:pink;
         display:inline-block;     
         margin:20px;     
         float:left;    
-        width:500px;
+        width:1200px;
+        height: 100%;
+
      }
      html{
         background-image: url(https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif);
@@ -34,24 +38,149 @@
         
             
 
+
+
+.inner {
+    width:75%;
+    margin:auto;
+}
+
+.right {
+    width:49%;
+    float: right;
+
+    }
+
+.left {
+    width:49%;
+    float:left;
+}
+
+img{
+    width:100%;
+}
+
     </style>    
         
     </head>
     
     <body>
-        <h1> Timeline</h1>
-            <a class="btn btn-info" href="index.html">Back</a>
         <div class="container">
+            <!--<div id=bar>
+            <!--    <a href="index.html"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP6JkArgGRONpTCDGnvuBK0yT11R7juf1JBLJKZ6oC0xGaXIuxbQ"></a>
+            <!--    <img src="images/sun.png"></sun>"></img>
+            <!--    <p> This is the timeline of the planets and the decades in our solar system! Watch videos and learn cool fun facts about the planets and their decades.</p>
+            <!--</div>-->
             
-             <div class="planet"> Mercury</div>    
-             <div class="planet"> Venus</div>     
-             <div class="planet"> Earth</div>
-             <div class="planet"> Mars</div>
-            <div class="planet"> Jupiter</div>
-            <div class="planet"> Saturn</div>
-            <div class="planet"> Uranus</div>
-            <div class="planet"> Neptune</div>
+            <h1> Time line</h1>
+            <a class="btn btn-info" href="index.html">Back</a>
+            <div class="planet"> Mercury
+                <div class="inner">
+                    <div class="left">
+                        <img src="http://www.nasa.gov/images/content/607199main_messenger_orbit_image20111130_1_full_full.jpg"></img>
+                        <p> Smallest planet in the universe!</p>
+                    </div>
+                    <div class="right">
+                        <h1> Mercury</h1>
+                        <h2> Now</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/e47h45dAstQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+             </div>    
+             <div class="planet"> Venus  
+                 <div class="inner">
+                     <div class="left">
+                         <img src="http://nssdc.gsfc.nasa.gov/planetary/image/venus_magellan.jpg"></img>
+                         <p> Spins backwards!</p>
+                     </div>
+                     <div class="right">
+                           <h1> Venus</h1>
+                            <h2> Early 2000s</h2>  
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/POSWz232ilE" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                 </div>
+             </div>
+             <div class="planet"> Earth
+                <div class="inner">
+                    <div class="left">
+                        <img src="http://www.nasa.gov/sites/default/files/1-bluemarble_west.jpg"></img>
+                        <p> Only planet not named after a God!</p>
+                    </div>
+                    <div class="right"> 
+                        <h1> Earth</h1>
+                        <h2> 1990s</h2>
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/N2EBqwXwIIs" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                </div>
+            </div>
+             <div class="planet"> Mars
+                 <div class="inner">
+                     <div class="left">
+                        <img src="http://www.news.civilserviceindia.com/wp-content/uploads/2015/08/mars.jpg"></img>
+                        <p> Home to the solar system's largest volcano (Olympus Mons.)</p>
+                     </div>
+                     <div class="right">
+                         <h1> Mars</h1>
+                         <h2> 1980's</h2>
+                         <iframe width="420" height="315" src="https://www.youtube.com/embed/W9R1ujKmW2M" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                 </div>
+            </div>
+            <div class="planet"> Jupiter
+                <div class="inner">
+                    <div class="left">
+                        <img src="http://www.nasa.gov/centers/goddard/images/content/381775main_LARGEST_jupiter_sphere_946-710.jpg"/>
+                        <p>Jupiter has a ring that is composed of space rock</p>
+                    </div>
+                    <div class="right">
+                        <h1> Jupiter</h1>
+                        <h2> The 70's</h2>
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/m_D8GRFqX8E" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="planet"> Saturn
+                <div class="inner">
+                    <div class="left">
+                        <img src="http://nssdc.gsfc.nasa.gov/planetary/image/saturn_voy2.jpg"></img>
+                        <p> Least dense planet</p>
+                    </div>
+                    <div class="right">
+                        <h1> Saturn</h1>
+                        <h2> 1960's</h2>
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/POSWz232ilE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="planet"> Uranus
+                <div class="inner">
+                     <div class="left">
+                         <img src="https://pds.jpl.nasa.gov/planets/images/full/neptune/fullnep.jpg"></img>
+                         <p> First planet to be discovered through a telescope.</p>
+                     </div>
+                     <div class="right">
+                         <h1> Uranus</h1>
+                         <h2> 1950's</h2>
+                         <iframe width="420" height="315" src="https://www.youtube.com/embed/RVKAVJO-1wY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="planet"> Neptune
+                <div class="inner">
+                    <div class="left">
+                        <img src="http://images.spaceref.com/news/ooneptune.jpg"></img>
+                        <p> Has 13 moons.</p>
+                    </div>
+                    <div class="right">
+                        <h1> Neptune</h1>
+                        <h2> 1940's</h2>
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/_Gx5DhKN_zY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+            </div>
         </div>
+    
     </body>
         
         
